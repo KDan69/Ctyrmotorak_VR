@@ -1,5 +1,5 @@
 # Ctyrmotorak_VR
-Ukázkový program pro komunikaci s "čtyřmotorákem".
+Ukázkový program pro komunikaci s "čtyřmotorákem". Ve složce `testKomunikace` se nachází Unity projekt, kde je primitivní scéna využívající data ze stroje. Program ovládající stroj se sem bohužel nevejde, je k dispozici [zde](https://kdan.mzf.cz/FourMotors20240917.7z) (heslo k archivu je "4mot").
 # Popis komunikace
 Programy mezi sebou komunikují protokolem UDP přes port 4000. Pro získání dat ze serveru stačí odeslat `{"get": "data"}`, pro získání parametrů křivky se odesílá `{"get": "curve"}`. Na následujícím screenshotu jsou vidět oba typy přijatých dat. 
 
